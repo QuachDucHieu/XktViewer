@@ -1,5 +1,5 @@
 {
-  "name": "@hat/xkt-viewer",
+  "name": "hat/xkt-viewer",
   "version": "1.0.0",
   "description": "XKT viewer",
   "main": "dist/xeokit-bim-viewer.min.es.js",
@@ -44,7 +44,8 @@
   },
   "dependencies": {
     "@xeokit/xeokit-sdk": "2.4.2-beta-49",
-    "http-server": "^13.0.2"
+    "http-server": "^13.0.2",
+    "my-package": "^0.0.0"
   },
   "bugs": {
     "url": "https://github.com/QuachDucHieu/XktViewer/issues"
