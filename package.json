@@ -1,7 +1,7 @@
 {
-  "name": "@xeokit/xeokit-bim-viewer",
-  "version": "2.4.33",
-  "description": "BIM viewer built on xeokit",
+  "name": "@hat-xkt-viewer/xkt-viewer",
+  "version": "1.0.0",
+  "description": "XKT viewer",
   "main": "dist/xeokit-bim-viewer.min.es.js",
   "files": [
     "/dist/xeokit-bim-viewer.min.es.js",
@@ -12,12 +12,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config rollup.config.js; rollup --config rollup.dev.config.js;  cp locales/messages.js ./dist/.",
-    "docs": "./node_modules/.bin/esdoc",
+    "docs": "esdoc",
     "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xeokit/xeokit-bim-viewer.git"
+    "url": "git+https://github.com/QuachDucHieu/XktViewer.git"
   },
   "keywords": [
     "OpenProject",
@@ -33,11 +33,6 @@
     "3d-viewer"
   ],
   "author": "Lindsay Kay",
-  "license": "See LICENSE.txt",
-  "bugs": {
-    "url": "https://github.com/xeokit/xeokit-bim-viewer/issues"
-  },
-  "homepage": "https://github.com/xeokit/xeokit-bim-viewer#readme",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.2.1",
     "autoprefixer": "^9.8.6",
@@ -50,5 +45,10 @@
   "dependencies": {
     "@xeokit/xeokit-sdk": "2.4.2-beta-49",
     "http-server": "^13.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/QuachDucHieu/XktViewer/issues"
+  },
+  "homepage": "https://github.com/QuachDucHieu/XktViewer#readme",
+  "license": "ISC"
 }
